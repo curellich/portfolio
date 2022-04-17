@@ -282,7 +282,7 @@ p {
     background-repeat: no-repeat;
     background-size: auto, cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .hero-image-opacity {
@@ -321,6 +321,7 @@ p {
 @media screen and (min-width: 1024px) {
     .hero-image{
         background-size: cover;
+        background-attachment: fixed;
     }
 }
 
