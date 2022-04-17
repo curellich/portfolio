@@ -687,6 +687,12 @@ progress::-moz-progress-bar {
     color: var(--title-color);
 }
 
+@media screen and (max-width: 350px){
+    .logo a {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .services > .container {
         display: grid;
