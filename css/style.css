@@ -276,7 +276,6 @@ p {
 
 /********************************************* Hero Image **********************************************************/
 .hero-image {
-
     background-image: url("../assets/hero-image-home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
