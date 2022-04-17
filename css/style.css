@@ -276,9 +276,11 @@ p {
 
 /********************************************* Hero Image **********************************************************/
 .hero-image {
+    min-height: 800px;
+    width: 100%;
     background-image: url("../assets/hero-image-home.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100vh;
+    background-size: auto, cover;
     background-position: center;
     background-attachment: fixed;
 }
