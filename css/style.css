@@ -278,7 +278,7 @@ p {
 .hero-image {
     background-image: url("../assets/hero-image-home.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto auto;
     background-position: center;
     background-attachment: fixed;
 }
@@ -306,6 +306,11 @@ p {
 .hero-image-subtitle{
     visibility: hidden;
 
+}
+@media screen and (max-width: 400px){
+    .hero-image{
+        background-size: auto 100vh;
+    }
 }
 
 @media screen and (min-width: 850px){
