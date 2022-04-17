@@ -278,7 +278,7 @@ p {
 .hero-image {
     background-image: url("../assets/hero-image-home.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100vh;
     background-position: center;
     background-attachment: fixed;
 }
@@ -307,27 +307,21 @@ p {
     visibility: hidden;
 
 }
-@media screen and (max-width: 400px){
-    .hero-image{
-        background-size: auto 100vh;
-    }
-}
-
-@media screen and (max-width: 850px){
-    .hero-image{
-        background-size: auto 100vh;
-    }
-}
-
 
 @media screen and (min-width: 850px){
-
     .hero-image-subtitle{
         visibility: visible;
         font-size: 2vw;
         color: var(--white-color);
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero-image{
+        background-size: cover;
+    }
+}
+
 
 /********************************************* Menu     **************************************************************/
 .menu-btn {
