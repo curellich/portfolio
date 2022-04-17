@@ -280,7 +280,7 @@ p {
     background-image: url("../assets/hero-image-home.jpg");
     background-position: 0%, 0%, 50%, 50%;
     background-attachment: scroll, fixed;
-    background-size: auto, cover;
+    background-size: cover;
 }
 
 .hero-image-opacity {
