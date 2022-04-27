@@ -639,18 +639,17 @@ progress::-moz-progress-bar {
 
 .portfolio-modal {
     max-width: 375px;
-    max-height: 80vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--white-color);
     padding: 1rem;
 }
 
-.portfolio-moda-img{
-    width: 70%;
+.portfolio-modal img{
+    width: 200px;
     align-self: center;
 }
-
 
 .portfolio-modal h3 {
     border-bottom: medium solid var(--first-color);
@@ -715,9 +714,12 @@ progress::-moz-progress-bar {
         max-width: 800px;
         flex-direction: row;
     }
-    .portfolio-moda-img{
+
+    .portfolio-modal img{
         width: 100%;
+
     }
+
 
     .portfolio-info {
         margin: 1rem;
