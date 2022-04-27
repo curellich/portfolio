@@ -639,7 +639,7 @@ progress::-moz-progress-bar {
 
 .portfolio-modal {
     max-width: 375px;
-    max-height: 100vh;
+    max-height: 95vh;
     display: flex;
     flex-direction: column;
     background-color: var(--white-color);
