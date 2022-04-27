@@ -639,11 +639,14 @@ progress::-moz-progress-bar {
 
 .portfolio-modal {
     max-width: 375px;
-    max-height: 95vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--white-color);
     padding: 1rem;
+}
+.portfolio-moda-img{
+    height: 300px;
 }
 
 
@@ -709,6 +712,9 @@ progress::-moz-progress-bar {
     .portfolio-modal {
         max-width: 800px;
         flex-direction: row;
+    }
+    .portfolio-moda-img{
+        height: 100%;
     }
 
     .portfolio-info {
